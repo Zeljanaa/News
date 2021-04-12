@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="none">
+<!--        <item-->
+<!--            android:id="@+id/home"-->
+<!--            android:enabled="true"-->
+<!--            android:icon="@drawable/home_ic"-->
+<!--            android:title="@string/home"-->
+<!--            android:tooltipText="@string/home"-->
+<!--            app:labelVisibilityMode="auto"-->
+<!--            tools:ignore="UnusedAttribute" />-->
+
+        <item
+            android:id="@+id/categories"
+            android:enabled="true"
+            android:icon="@drawable/category"
+            android:title="@string/categories"
+            android:tooltipText="@string/categories"
+            app:labelVisibilityMode="auto"
+            tools:ignore="UnusedAttribute" />
+
+        <item
+            android:id="@+id/countries"
+            android:enabled="true"
+            android:icon="@drawable/countries"
+            android:title="@string/countries"
+            android:tooltipText="@string/countries"
+            app:labelVisibilityMode="auto"
+            tools:targetApi="o" />
+    </group>
+
+</menu>
